@@ -1,0 +1,13 @@
+[project]
+name = "matrix-call-recorder"
+version = "0.1.0"
+description = "records audio video calls in matrix synapse"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiortc>=1.13.0",
+    "matrix-nio>=0.25.2",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+    "python-dotenv>=1.1.1",
+]
